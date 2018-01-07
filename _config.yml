@@ -1,64 +1,64 @@
-
+---
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: https://albertomontesg.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# then add in the baseurl here, like this: /repository-name
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /
 
 # Google tracking id
 
-google-tracking-id: ""
+google-tracking-id: UA-112020117-1
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: true
 
 #############
 # HTML Head #
 #############
 
-lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+lang: en
+author: Alberto Montes
+title: "{ Alberto Montes }"
+description: Personal Website of Alberto Montes
+keywords: personal, website, alberto, montes
+favicon: /img/favicon.ico
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: /img/black-lab-glass.ico
 
-background-img: "../img/intro-bg.jpg"
+background-img: ../img/background3.png
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
+dynamic-typing: true
+shuffle: true   # Shuffle the lines.
+loop: true
+# Set False for infinite loop, or set any number for finite loop.
+loop-count: false
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+lines:  # You can add HTML Tags in the Text
+  - text: The best way to predict your future is to create it.
 
-me-img: "/img/jetpacktocat.png"
+me-img: /img/picture.jpg
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -83,7 +83,7 @@ me-img: "/img/jetpacktocat.png"
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#222026"
 apple-status-bar-style: "black"
 
 ################
@@ -111,42 +111,49 @@ post-preview-words: 96
 
 paginate: 5
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+email-share: true
+fb-share: true
+twitter-share: true
+linkedin-share: true
+reddit-share: true
+google-plus-share: true
+tumblr-share: true
+pinterest-share: true
+pocket-share: true
+vkontakte-share: true
 
-disqus-shortname: "panossakkos"
+disqus-shortname: ""
 
-syntax-highlight: True
+syntax-highlight: true
 
 ############
 # Timeline #
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: /img/timeline/ethz.jpeg
+    date: September 2016 - Today
+    description: >
+      Master in Computer Science in ETH Zürich.
+      Specialized in Machine Learning, AI and Computer Vision.
+  - image: /img/timeline/verse.jpg
+    date: October 2015 - July 2016
+    description: Worked in Verse as Backend Developer.
+  - image: /img/timeline/upc.jpg
+    date: September 2011 - July 2016
+    description: >
+      Bachelor in Science and Technology in Telecommunications &
+      Bachelor of Engineering in Industrial Technologies
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: /img/timeline/bcn.jpg
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "al.montes.gomez@gmail.com"
 
 ################
 # Author Blurb #
@@ -156,24 +163,24 @@ email: "your@email.here"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+author_blurb: "Alberto Montes is currently a Computer Science Master student at ETH Zürich. His currents interests are Machine Learning, Artificial Intelligence and Data Science."
+author_blurb_image: "/img/picture.jpg"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
+  # - title: "facebook"
+  #   url: "https://facebook.com/"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/alberto_24"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
+    url: "https://github.com/albertomontesg"
+  # - title: "bitcoin"
+  #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  # - title: "rss"
+    # url: "/feed.xml"
 
 ############
 # 404 page #
@@ -185,7 +192,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: albertomontes
 keybase-in-social: True
 keybase-in-footer: True
 
@@ -197,7 +204,7 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  # Blog: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
 
@@ -214,6 +221,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
