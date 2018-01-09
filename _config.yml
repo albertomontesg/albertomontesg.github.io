@@ -131,6 +131,11 @@ syntax-highlight: true
 ############
 
 events:
+  - image: /img/timeline/cvl.png
+    date: July 2017 - Today
+    description: >
+      Doing research for my Master Thesis about Video Object Segmentation
+      at Prof. Luc van Gool's Compute Vision Lab.
   - image: /img/timeline/ethz.jpeg
     date: September 2016 - Today
     description: >
