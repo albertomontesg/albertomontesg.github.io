@@ -131,13 +131,18 @@ syntax-highlight: true
 ############
 
 events:
-  - image: /img/timeline/cvl.png
-    date: July 2017 - Today
+  - image: /img/timeline/google.png
+    date: June 2018 - Present
     description: >
-      Doing research for my Master Thesis about Video Object Segmentation
+      Software Engineer specialized in Machine Learning at YouTube
+      Trust and Safety, Google Zürich.
+  - image: /img/timeline/cvl.png
+    date: July 2017 - May 2018
+    description: >
+      Master Thesis about Video Object Segmentation
       at Prof. Luc van Gool's Compute Vision Lab.
   - image: /img/timeline/ethz.jpeg
-    date: September 2016 - Today
+    date: September 2016 - April 2018
     description: >
       Master in Computer Science in ETH Zürich.
       Specialized in Machine Learning, AI and Computer Vision.
